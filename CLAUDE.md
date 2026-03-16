@@ -53,4 +53,8 @@ GitHub Pages serves from the `main` branch root. No configuration file needed �
 
 ## Brand colors
 
-The hero gradient (`#061a3a → #0078d4 → #00b4d8 → #4361ee → #9333ea → #3b0764`) uses the cool half of the M365 Copilot logo palette (midnight navy → Microsoft blue → Copilot cyan → blue-violet → vivid purple → deep indigo). This is intentionally distinct from the Copilot Studio sister site, which uses a full warm-to-cool rainbow (pink → orange → teal → blue → purple).
+The hero uses a **two-layer** design inspired by the logo's two interweaving ribbons:
+- **Base linear gradient** (150deg): near-black → deep blue (`#0d47a1`) → deep teal (`#006064`) → dark forest green (`#004d40`) → near-black — the cool ribbon.
+- **Radial overlays** (`::before`): orange glow (top-right), pink/magenta glow (bottom-right), cyan glow (left) — the warm ribbon.
+
+Together they produce a dark teal/blue field lit by warm orange and pink accents, mirroring how the logo's two ribbons interweave. Distinct from agent365 (light blue → lavender, no warmth) and Copilot Studio (warm-to-cool rainbow, no dark teal base).
